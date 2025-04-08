@@ -1,6 +1,6 @@
 /* This is a CSS override! It overrides default values for ALL elements. */
 /* I highly recommend keeping this override in your code. */
-* {
+/* {
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
@@ -36,4 +36,4 @@ ul {
 }
 li {
 	margin: 20px;
-}
+}*/

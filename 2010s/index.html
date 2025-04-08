@@ -3,55 +3,281 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>TIME TRAVELER | 2010s</title>
-	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
 </head>
+<style>
+	* {
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+	body{
+		background-color:rgb(58, 205, 221);
+	}
+	.section{
+		display: none;
+	}
+	.topic{
+		height:100px;
+		border: 3px;
+		border-style: solid;
+		border-color: white;
+		overflow-y: auto;
+
+		margin-top: 30px;
+		font-family:Georgia, 'Times New Roman', Times, serif;
+		font-size: 30px;
+		text-align: center;
+		color:rgb(255, 255, 255);
+		
+	}
+	.topic:hover{
+		transform: scale(1.05);
+		transition: .7s;
+	}
+	.headline{
+		margin-top: 30px;
+		font-family:Georgia, 'Times New Roman', Times, serif;
+		font-size: 30px;
+		text-align: center;
+		color:rgb(255, 255, 255);
+	}
+	.topic:hover{
+		flex-grow: 200;
+	}
+	.buttons{
+		display: flex;
+		
+		align-items: center;
+	}
+	button{
+		flex-grow: 1;
+		margin-top: 30px;
+		color: white;
+		border-color: white;
+		font-family:Georgia, 'Times New Roman', Times, serif;
+		font-size: 30px;
+		background-color: none;
+		transition: .7s;
+	}
+	button:hover{
+		flex-grow: 200;
+	}
+	h1{
+		color: white;
+		font-family:Georgia, 'Times New Roman', Times, serif;
+		font-size: 30px;	
+	}
+	p{
+		color: white;
+		font-family:Georgia, 'Times New Roman', Times, serif;
+		font-size: 20px;	
+	}
+	.texts{
+		color: white;
+		font-family:Georgia, 'Times New Roman', Times, serif;
+		font-size: 20px;	
+	}
+
+
+	.sections{
+		border: 3px;
+		border-style: solid;
+		border-color: white;
+	}
+	.sections:hover{
+		transform: scale(1.05);
+		transition: .7s;
+	}
+
+
+	.iframes{
+		display: flex;
+	}
+	iframe{
+		border-color: white;
+	}
+	ul{
+		color: white;
+		font-family:Georgia, 'Times New Roman', Times, serif;
+		font-size: 20px;	
+	}
+	table{
+		color: white;
+		font-family:Georgia, 'Times New Roman', Times, serif;
+		font-size: 20px;	
+	}
+</style>
 <body>
-	<nav>
-		<a href="../">Home</a>
-		<a href="../1990s">1990s</a>
-		<a href="../2000s">2000s</a>
-		<a href="./">2010s</a>
-		<a href="" target="_blank">Original article</a>
-		<a href="https://github.com/gabrieldrozdov/time-traveler" target="_blank">GitHub repository (update with your repository)</a>
-	</nav>
-
-	<h1>Welcome to the 2010s!</h1>
-
-	<button onclick="toggleContent();">The 2010s? What’s that like?</button>
-
-	<div id="content" class="hidden">
+	<div class="topic">
+	<h class="headline">What is Ethical Hacking?</h>
+	<br>
+	<br>
+	<details> 
+		<summary class="texts">Click me!</summary> 
 		<p>
-			This is an era where the Internet becomes everything. It takes on new functions and allows layouts that appease our every want and need. Perhaps by now, we’ve had <em>too</em> much Internet.
-		</p>
-
-		<p>
-			Here’s what sites have now:
-		</p>
-
-		<ul>
-			<li>Advanced layouts using <a href="https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/" target="_blank">flexbox</a> and <a href="https://www.joshwcomeau.com/css/interactive-guide-to-grid/" target="_blank">CSS grid</a>.</li>
-			<li><a href="https://www.w3schools.com/css/css_rwd_mediaqueries.asp" target="_blank">Media queries</a> that let us create responsive mobile layouts.</li>
-			<li><a href="https://www.w3schools.com/cssref/atrule_font-face.php" target="_blank">Custom fonts.</a></li>
-			<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-variation-settings" target="_blank">Variable fonts!.</a></li>
-			<li>All the wonders that JavaScript brings.</li>
-		</ul>
-
-		<p>
-			For this version of the site, <em>you may NOT use absolute positioning!</em>
-		</p>
-
-		<p>
-			If flexbox is confusing, try playing <a href="https://flexboxfroggy.com/" target="_blank">Flexbox Froggy</a>. If CSS Grid is confusing, try playing <a href="https://cssgridgarden.com/" target="_blank">Grid Garden</a>.
-		</p>
-
-		<h2>Examples of sites that are evocative this era:</h2>
-		<ul>
-			<li><a href="https://www.apple.com/" target="_blank">Apple</a></li>
-			<li><a href="https://www.reddit.com/" target="_blank">Reddit</a></li>
-			<li><a href="https://www.nytimes.com/" target="_blank">New York Times</a></li>
-		</ul>
+		When many people hear the term hacking, it’s often correlated with cyberattacks.
+		<br>
+		However, in today's technology driven world, there’s a group of cybersecurity professionals that essentially hack the hackers – they’re called ethical hackers.
+		<br>
+		The role of an ethical hacker is important within the cybersecurity industry. 
+		<br>
+		Ethical hackers are tasked with the knowledge, skills, and experience to perform risk assessments and test systems for security related issues. 
+		<br>
+		These tests are conducted against all possible security breaches, exploits and vulnerability scenarios that protect organizations from attacks.
+		<br>
+		According to the Bureau of Labor Statistics, the cybersecurity industry will only continue to grow in the coming years. 
+		<br>
+		Job projections for roles like cybersecurity analyst show a 33% increase in growth over the next few years. 
+		<br>
+		To learn more about types of hackers plus the tools, responsibilities, and certifications needed to become an ethical hacker, continue reading.
+		<br>
+		</p> 
+	</details>
 	</div>
+	
+	<div class="buttons">
+		<button onclick="loadSection(1)">Section 1</button>
+		<button onclick="loadSection(2)">Section 2</button>
+		<button onclick="loadSection(3)">Section 3</button>
+		<button onclick="loadSection(4)">Section 4</button>
+		<button onclick="loadSection(5)">Section 5</button>
+		<button onclick="loadSection(6)">Section 6</button>
+	</div>
+	<br>
+	<br>
+
+	<div class="section" id="section1">
+		<div class="sections">
+		<h1> Types of Hackers</h1>
+		<br>
+		<p>Using the term hacking or hacker usually has a negative connotation in its definition. Malicious hackers are often highly skilled in coding and programming, and modifying computer software and hardware systems to gain unauthorized access. However, not all hackers are created equal, and they’re not always cybercriminals.
+        <br>
+        Hacking consists of conducting technical activities with the intent of exploiting vulnerabilities within a computer system, network or firewall to obtain unauthorized access. It involves misusing digital devices such as computers, networks, smartphones and tablets.
+        <br>
+        The goal of hacking is to manipulate digital devices in order to cause damage or corrupt operating systems. It also allows hackers to collect user information, steal sensitive information and documents or perform other disruptive data related activities.
+        <br>
+        While hackers can be both ethical and malicious, most fall within three main types of hacking. These three main varieties of hackers are authorized, unauthorized and grey-hat hackers. Each type has different intents and purposes for their exploits. Let's explore each of these types of hackers and how they operate.
+        </p>
+		<div class="iframes">
+		 <iframe src="page1-1.html" width="460" height="300" align="center"></iframe>
+    	<iframe src="page1-2.html" width="460" height="300" align="center"></iframe>
+   	 	<iframe src="page1-3.html" width="460" height="300" align="center"></iframe>
+		</div>
+		<br>
+		</div>
+	</div>
+
+	<div class="section" id="section2">
+		<div class="sections">
+			<h1>How Ethical Hackers Differ From Malicious Hackers</h1>
+			<p>
+				Ethical hackers work with companies, the government and other organizations to identify potential vulnerabilities in their systems. This intel can be used to fix security issues and vulnerabilities before adversaries have a chance to exploit them.
+				<br>
+				There are several significant other ways that ethical hacking is different from malicious hacking:
+				<ul>
+					<li>Ethical hackers are hired to test vulnerability and not steal anything from the systems they’re testing. Their main goal is to only look for gaps in the system's security defenses.</li>
+					<li>Ethical hackers utilize several methods to test systems apart from just attempting to gain access through illegal pathways. These paths can include brute force attacks or using keyloggers to reveal user-password vulnerability. They will also utilize legal methods of gaining access that mirror real-world attackers, known as the ethical hacking methodology.</li>
+					<li>Ethical hackers follow a strict code of ethics when conducting the tests that guide their work. This code prohibits them from sharing how they breached security measures with anyone outside the client or organization. As a result, most companies and organizations are more likely to trust an ethical hacker.</li>
+		
+				</ul>
+			</p>
+
+		</div>
+	</div>
+
+	<div class="section" id="section3">
+		<div class="sections">
+			<h1>Roles and Responsibilities of Ethical Hackers</h1>
+			<p>
+				Ethical hackers often have job responsibilities that go beyond lawfully hacking systems for security issues. The primary goal of an ethical hacker is to test and identify vulnerabilities in an organization's system and correct them.
+			   <br>
+				Ethical hackers are expected to follow specific guidelines to perform hacking for organizations legally. These guidelines include approval from the system owner before executing the security review.
+			   <br>  
+			</p>
+			<ul>
+				What are the additional roles and responsibilities of an ethical hacker?
+				<br>
+				Discovering the operating system and network weaknesses in an organization's technology infrastructure.
+				<br>
+				Demonstrating how easy it is to launch cyberattacks on their company using penetration-testing methods.
+				<br>
+				Executing security assessment simulations to show how easily they could be hacked by someone else.
+				<br>
+				Reporting any security breaches and vulnerabilities discovered within the system or network directly to the owner or manager of that system.
+				<br>
+				Keeping the discoveries confidential between them and the client or company.
+				<br>
+				Wiping traces of the hack to ensure that malicious hackers cannot enter the system through the identified loopholes.
+			</ul>	
+		</div>
+	</div>
+
+	<div class="section" id="section4">
+		<div class="sections">
+		<h1>Skills and Certifications Required for Ethical Hackers</h1>
+   		<p>
+        Ethical hacking is a technology career with specific skills, and cybersecurity certifications help people break into the field. Many ethical hacking jobs still require a bachelor's degree in information technology, or another technology or cybersecurity related degree. However more employers are considering candidates without degrees in favor of experience and certifications. The most proficient ethical hackers have a combination of a degree, experience and certifications.
+        <br>
+        Ethical hackers should also have a working knowledge of infrastructure technology including Linux servers, Cisco network controls, virtualization, Citrix and Microsoft Exchange. Computer programming experience and understanding of various programming languages is required for advanced positions.
+        <br>
+        Many employers will require ethical hackers to have certifications in addition to their degree and experience. CompTIA PenTest+ and Certified Ethical Hacker (CEH) through EC-Council are among the most recognized industry certifications. They cover the skills and knowledge needed by experts in information security and ethical hacking.
+        <br>
+        Ethical hackers also need strong analytical skills, given that the work involves examining data to identify potential issues. Therefore, to break into this field, you must also have superior problem-solving skills, creative strategy skills and attention to detail. These skills are necessary, as ethical hackers must be thorough in their efforts to breach the security systems.
+        <br>
+        Regular re-certification is necessary to stay up to date with this industry. Continued education on the latest penetration software and industry recommendations can also be beneficial for ethical hackers in their careers.
+    	</p>
+		</div>
+	</div>
+
+	<div class="section" id="section5">
+		<div class="sections">
+			<h1>Standard Tools Used in Ethical Hacking</h1>
+			<p>Mainly three tools are used nowadays.</p>
+			<br>
+			<table border="2">
+				<tr>
+					<th>⓵ Namp</th>
+					<th>⓶ Wireshark</th>
+					<th>③ Burp Suite</th>
+				</tr>
+				<tr>
+					<td>
+						Is one of the most popular network scanning and mapping tools. Its built-in scripting library can scan for open ports and check for vulnerabilities. It can be used locally and remotely to monitor networks for security gaps. It can also be used on mobile devices and smartphones with root credentials.
+					</td>
+					<td>
+						Is a protocol analyzer tool that allows you to collect the data from a network without disturbing its ongoing operations. It helps ethical hackers test the network for security flaws. This tool is beneficial to ethical hackers trying to identify what kind of traffic the computer sends/receives while connected online. The only limitation to this tool is that the viewable packets are visible as long as they are not encrypted.
+					</td>
+					<td>
+						Is an integrated platform for web security testing that includes proxy server, repeater and intruder mode. It also includes other tools such as Spider, Scanner and Intruder. This tool makes it easy for an ethical hacker to perform various tasks, such as detecting vulnerabilities in websites/web applications. The testing is done while maintaining a high level of security throughout their operation process.
+		
+					</td>
+				</tr>
+			</table>
+			<br>
+		</div>
+	</div>
+
+	<div class="section" id="section6">
+		<div  class="sections">
+			<h1 align="center">Limitations to Ethical Hacking</h1>
+	
+	<br>
+    <p>
+		Ethical hacking can often have a misunderstood scope and limit within the industry.
+		<br>
+         Although ethical hacking is a type of penetration testing, it uses attack simulations and methods to assess the system and network, reinforcing that there’s more to ethical hacking than just penetration testing.
+        <br>
+        Many ethical hackers need to be multifaced in not only thinking like a hacker but moving like one as well. They need to know how they operate, what they use, and the tools used to employ countermeasures against the system and network vulnerabilities – while remaining within the bounds of the laws and permissions.
+        <br>
+        Ethical hacking is also often compared with vulnerability or risk assessments. Vulnerability assessment (VA) takes place before penetration testing begins. A VA can scan for security vulnerabilities on a system or network without exploiting them. This is done to determine weaknesses in said system or network before taking further action to mitigate them.
+        <br>
+        Ethical hacking often involves many different facets of the information security field. This role requires a lot of knowledge and expertise, from coding and programming to penetration testing and risk assessment. There is a lot to learn within the ethical hacking career, but it’s a high-demand field that will only continue to grow the more technology is used in our world.
+
+
+    </p>
+		</div>
+	</div>
+
 
 	<script src="script.js"></script>
 </body>
