@@ -11,45 +11,56 @@
 	}
 	.hrefContainer{
 		display: flex;
-		height: 100vh;
+		height: 100vh; 
+		text-align: center;
+		justify-content: center; 
 	}
 	a {
-		color: blueviolet;
 		font-family: 'Courier New', Courier, monospace;
 		font-size: 30px;
 		text-decoration: none;
+		display: flex;
+		align-items: center;     
+		justify-content: center;
+		color:rgb(54, 54, 109, 0.7);
+		font-weight: 600;
 	
 	}
 	a:hover{
-		color: aqua;
 		transform: scale(1.05);
 		transition: .7s;
 	}
 	.href1{
-		width: 33.33vw;
+		flex:1;
 		text-align: center;
-		padding-top: 25%;
-		background-color: rgb(212, 230, 255);
+		background-image: linear-gradient(to right, #6b767e 0%, #ccc4b8 50%, #6b767e  100%)
 	}
 	.href2{
-		width: 33.33vw;
+		flex:1;
 		text-align: center;
-		padding-top: 25%;
-		background-color: lightpink;
+		background-image: linear-gradient(to right, #d59be4 0%, #c7c7e8  50%, #d59be4  100%)
 	}
 	.href3{
-		width: 33.33vw;
+		flex:1;
 		text-align: center;
-		padding-top: 25%;
-		background-color: rgb(196, 255, 196);
+		background-image: linear-gradient(to right, #77ccc3 0%, #c7e8ce  50%, #77ccc3  100%)
+	}
+	.href1:hover{
+		background-image: linear-gradient(to right, #304352 0%, #d7d2cc  50%, #304352  100%)
+	}
+	.href2:hover{
+		background-image: linear-gradient(to right, #bf60d7 0%, #c7c7e8  50%, #bf60d7  100%)
+	}
+	.href3:hover{
+		background-image: linear-gradient(to right, #22c6b5 0%, #c7e8ce  50%, #22c6b5  100%)
 	}
 </style>
 <body>
 
 	<div class="hrefContainer">
-		<a href="1990s/" class="href1">1990s</a>
-		<a href="2000s/" class="href2">2000s</a>
-		<a href="2010s/" class="href3">2010s</a>
+		<a href="1990s/" class="href1">What is Ethical Hacking?<br>1990s</a>
+		<a href="2000s/" class="href2">What is Ethical Hacking?<br>2000s</a>
+		<a href="2010s/" class="href3">What is Ethical Hacking?<br> 2010s</a>
 		</div>
 </body>
 </html>

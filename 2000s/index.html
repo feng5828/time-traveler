@@ -3,11 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>2000s</title>
 </head>
 <style>
     body{
         background-color: aliceblue;
+    }
+    .navigation{
+        margin-top: 18px;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    a{
+        text-decoration: none;
+        background-color:rgba(180, 116, 236, 0.353) ;
+        padding: 3px;
+        border-radius: 3px;
+        color: darkslateblue;
     }
     .mainheading{
         text-align: center;
@@ -62,8 +74,11 @@
         border: 0px;
         margin: 10px;
         margin-top: 10px;
-       
+       display: inline-block;
         border-radius: 20px;
+    }
+    .iframeContainer{
+       text-align: center;
     }
     details{
         margin-top: 20px;
@@ -136,7 +151,12 @@
         border-radius: 10px;
         background-color: rgb(241, 218, 241);
     }
-
+    .container{
+       text-align: center;
+    }
+    .container div{
+        display:inline-block;
+    }
 
     .img1{
         position: absolute;
@@ -158,16 +178,23 @@
     }
 </style>
 <body>
-   
+
+    <div class="navigation">
+    <a href="../index.html"><span style="color:  rgb(65, 65, 225);">Back</span></a>
+	<a href="../1990s/index.html">1990s</a>
+	<a href="index.html">2000s</a>
+	<a href="../2010s/index.html">2010s</a>
+	<a href="https://www.comptia.org/content/articles/what-is-ethical-hacking"><span style="color:  rgb(65, 65, 225);">Original </span> </a>
+    </div>
+
     <h1 class="mainheading">What is Ethical Hacking?</h1>
     <h1 class="mainheading2">What is Ethical Hacking?</h1>
     <h1 class="mainheading3">What is Ethical Hacking?</h1>
- <center>
-        <img src="assets/lineforrecipe.gif">
-    </center>
+
+        <img src="assets/lineforrecipe.gif" style="display: block; margin: auto;">
 
     <br>
-    <center> <img src="assets/computer.gif"></center>
+   <img src="assets/computer.gif" style="display: block; margin: auto;">
    
     <br>
 
@@ -211,11 +238,11 @@
     <br>
     <br>
     <br>
-<center>
+<div class="iframeContainer">
     <iframe src="page1-1.html" width="400" height="400" align="center"></iframe>
     <iframe src="page1-2.html" width="400" height="400" align="center"></iframe>
     <iframe src="page1-3.html" width="400" height="400" align="center"></iframe>
-</center>
+</div>
 
     <img src="assets/symbol1.gif" class="img2">
      <h1 class="heading">How Ethical Hackers Differ From Malicious Hackers</h1>
@@ -266,7 +293,12 @@
         Ethical hacking is a technology career with specific skills, and cybersecurity certifications help people break into the field. Many ethical hacking jobs still require a bachelor's degree in information technology, or another technology or cybersecurity related degree. However more employers are considering candidates without degrees in favor of experience and certifications. The most proficient ethical hackers have a combination of a degree, experience and certifications.
     </p>
         <br>
-    <center><img src="assets/certificate.gif">  <img src="assets/hacker.gif">  <img src="assets/certificate.gif"></center>
+  
+    <div class="container">
+    <div><img src="assets/certificate.gif">  </div>
+    <div><img src="assets/hacker.gif">  </div>
+    <div><img src="assets/certificate.gif"></div>
+    </div>
 
     <p class="content">
         Ethical hackers should also have a working knowledge of infrastructure technology including Linux servers, Cisco network controls, virtualization, Citrix and Microsoft Exchange. Computer programming experience and understanding of various programming languages is required for advanced positions.
@@ -305,8 +337,8 @@
     </table>
 
     <h1 class="heading">Limitations to Ethical Hacking</h1>
-    <center><div class="thoughts" ><span class="thoughtscontent">Yes we can't do everything...</span></div><img src="assets/computerguy.gif"></center>
     <br>
+    <img src="assets/computerguy.gif" style="display: block; margin: auto;">
     <br>
     <p class="content">
         Ethical hacking can often have a misunderstood scope and limit within the industry. Although ethical hacking is a type of penetration testing, it uses attack simulations and methods to assess the system and network, reinforcing that there’s more to ethical hacking than just penetration testing.
@@ -323,9 +355,9 @@
 
     </p>
 
-    <center>
-        <img src="assets/lineforrecipe.gif">
-    </center>
+  
+        <img src="assets/lineforrecipe.gif" style="display: block; margin: auto;">
+
     <h1 class="heading">This is the End</h1>
     <br>
     <center>
@@ -333,7 +365,7 @@
         </center>
         <dialog id="end"> 
             <h2 class="content">Thank you for reading!</h2> 
-            <center><img src="assets/fireworks.gif"></center>
+         <img src="assets/fireworks.gif" style="display: block; margin: auto;">
             <p class="content">Now you've know the basic about ethical hacking</p> 
             <button onclick="document.getElementById('end').close()">Close</button> 
         </dialog>
